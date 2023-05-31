@@ -1,0 +1,49 @@
+{
+  "compilerOptions": {
+    "lib": ["es5", "es6", "es2018", "esnext.asynciterable"],
+    "target": "es2018",
+    "module": "CommonJS",
+    "moduleResolution": "node",
+    "outDir": "./build",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "sourceMap": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "allowJs": true,
+    "resolveJsonModule": true,
+    "strict": false
+  },
+  "exclude": ["node_modules"],
+  "include": ["./src/**/*.ts"]
+}
+
+// {
+//   "compilerOptions": {
+//     "target": "ES2020",
+//     "module": "CommonJS",
+//     "lib": ["ES2018", "ESNext"],
+//     "experimentalDecorators": true,
+//     "emitDecoratorMetadata": true,
+//     "allowSyntheticDefaultImports": true,
+//     "esModuleInterop": true,
+//     "moduleResolution": "node",
+//     "strict": false,
+//     "allowJs": true,
+//     "resolveJsonModule": true
+//   }
+// }
+
+// {
+//   "compilerOptions": {
+//     "target": "ES2020",
+//     "module": "ES2020",
+//     "lib": ["ES2018", "ESNext"],
+//     "esModuleInterop": true,
+//     "moduleResolution": "node",
+//     "resolveJsonModule": true,
+//     "experimentalDecorators": true,
+//     "strict": false,
+//     "allowJs": true
+//   }
+// }
